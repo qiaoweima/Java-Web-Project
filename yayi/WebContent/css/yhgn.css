@@ -1,0 +1,67 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+#content{
+	position: relative;
+	height: 653px;
+	width: 100%;
+	margin: auto;
+	background-color: #C4E1FF;
+	background:url(../img/index.jpg) no-repeat;
+	background-size:100% 100%;
+	font-size:25px;
+	color:black;
+	
+}
+h{
+    position: relative;
+    top: 50px;
+    left: 400px;
+	text-align: center;
+	font-size: 35px;
+}
+#fanhui{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	position: relative;
+	left: 20px;
+	line-height: 50px;
+}
+#fanhui:hover{
+	color: black;
+
+}
+/*在线预约*/
+#zxyy{	
+		margin: 0 auto;
+		border: 1px solid black;
+		
+		width: 200px;
+		height: 200px;
+		position: relative;
+		left: -250px;
+		top: 100px;
+	    font-size: 50px;
+		color: white;
+}
+#zxyy:hover{
+	background: black;
+}
+/*更新预约*/
+#gxyy{
+	    margin: 0 auto;
+		border: 1px solid black;
+		width: 200px;
+		height: 200px;
+		position: relative;
+		left: 250px;
+		top: -100px;
+		font-size: 50px;
+		color: white;
+}
+#gxyy:hover{
+	background: black;
+}

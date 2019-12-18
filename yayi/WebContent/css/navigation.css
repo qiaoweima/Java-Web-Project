@@ -1,0 +1,131 @@
+@charset "UTF-8";
+ul.chooseul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+ul.chooseul li{
+	display:inline;
+	
+}
+
+ul.chooseul a{
+	background-color:#9ab9da;
+	//background-color:#009fec;
+	border-radius:5px;
+	color:#707070;
+	position:relative;/*相对定位*/
+	display:block; /*块内元素*/
+	text-decoration:none;
+	height:30px;
+	width:120px;
+	padding:0px;
+	border-bottom:0;*/
+	margin-left:10px;
+	margin-top:5px;
+	text-transform:uppercase;
+	font-family:"宋体", serif;/*字体*/
+	font-weight:bold;/*粗体*/
+	text-align:center;/*水平居中*/
+	line-height:30px;/*垂直居中*/
+	font-size:18px;
+	border-bottom:2px solid transparent;
+	border-radium:15px;
+}
+
+ul.chooseul span:hover{
+	background-color:#418383;
+}
+
+ul.chooseul a:hover{
+	background-color:#7d7dff;
+}
+
+ul.chooseul span{
+	cursor: pointer;
+	background-color:#9ab9da;
+	border-radius:7px;
+	color:#707070;
+	position:relative;/*相对定位*/
+	display:block; /*块内元素*/
+	height:50px;
+	width:150px;
+	padding:0px;
+	border-bottom:0;*/
+	margin-left:10px;
+	margin-top:10px;
+	text-transform:uppercase;
+	font-family:"宋体", serif;/*字体*/
+	font-weight:bold;/*粗体*/
+	text-align:center;/*水平居中*/
+	line-height:50px;/*垂直居中*/
+	font-size:22px;
+	border-bottom:2px solid transparent;
+	border-radium:10px;
+}
+
+.tdiv{
+	position: absolute;  
+	width:600px;  
+	height:200px;
+	background-color:#C4E1FF;
+	top: 50%;
+	left: 56%; 
+	display:inline;
+	text-transform:uppercase;
+	text-align:center;/*水平居中*/
+	line-height:100px;/*垂直居中*/
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	border-bottom:1px solid black;
+    
+}
+.tdiv p{
+	line-height:25px
+}
+
+.tp{
+	font-size:36px;
+	position:relative;
+	bottom:10px;
+}
+
+li{
+	list-style: none;
+}
+
+#list ul{
+	display: none;
+	
+}
+
+#list .over{
+	background: #1059a5;
+}
+
+#list .hover{
+	background: #1059a5;
+}
+.back{
+	background:skyblue;
+	width:180px;
+	height:100px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#fanhui{
+	color:white;
+	text-decoration:none;
+	font-size:25px;
+	display:block;
+	border:1px soild red;
+}
+p img{
+	position:relative;
+	top:25px;
+}

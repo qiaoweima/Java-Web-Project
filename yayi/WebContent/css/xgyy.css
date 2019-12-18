@@ -1,0 +1,129 @@
+body{
+	background:rgba(196,225,255);
+	background-size:cover;
+	height:100%;
+	overflow:hidden;
+}
+#content{
+	margin:15px auto;
+	width: 500px;
+	height: 100%;
+	border: 5px solid skyblue;
+	border-radius:10px;
+	background: #C4E1FF url(../img/yc.jpg) no-repeat -20px 270px;
+	background-size:50% 50% ;
+}
+p{
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    top: 0px;
+    left: 0px;
+	text-align: center;
+	font-size: 25px;
+}
+form p{
+	display: inline;
+	position: relative;
+    top: -150px;
+    left: 0px;
+	text-align: center;
+	font-size: 15px;
+}
+form{
+	text-align: center;
+	font-size: 15px;
+	text-align: left;
+	padding-left:110px ;
+	
+}
+form input{
+	margin-top: 18px;
+	height: 15px;
+	border:1px solid #ccc;
+	padding:5px;
+	border-radius:3px;
+	font-family:"Helvetica Neue";
+}
+.beizhu{
+	height: 200px;
+}
+#doctor{
+	cursor: pointer;
+}
+#time{
+	cursor: pointer;
+	background:#c0c0c0;
+}
+textarea{
+	width: 13em;
+	resize: none;
+	margin-top: 20px;
+	height: 150px;
+	border:1px solid #ccc;
+	padding:5px;
+	border-radius:3px;
+	font-family:"Helvetica Neue";
+}
+#submit{
+	background-color: #CCCCCC;
+	position: relative;
+	left: 10em;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 10px;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 40px;
+}
+#submit:hover{
+	background-color: #87CEEB;
+}
+#back{
+	width: 120px;
+	height: 30px;
+	position: relative;
+	background:#CCCCCC;
+	font-size:13px ;
+	left:-12em;
+	top: 83%;
+	border:none;
+}
+#back:hover{
+	background-color: #87CEEB;
+}
+#tanchuang{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(128,128,128,0.8);
+	
+	z-index: 1;
+	display: none;
+}
+#tccontent{
+	overflow-y:scroll;
+	width: 500px;
+	height: 300px;
+	margin:150px auto;
+	border: 5px solid skyblue;
+	border-radius:10px;
+	background: #C4E1FF;
+	position: relative;
+	z-index: 2;
+}
+#tccontent #close{
+	position: fixed;
+	background:#C4E1FF;
+	height: 30px;
+	font-size:20px ;
+	left:48%;
+	top: 74%;
+	border: 1px solid black;
+}
+#tccontent #close:hover{
+	background: white;
+}
