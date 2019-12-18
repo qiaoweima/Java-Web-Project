@@ -5,4 +5,6 @@
 
 使用开发工具 eclipse，Tomcat7.0、mysql
 
-数据库文件 在文件夹lib/mysql里面
+数据库文件 在文件夹dbscripts里面
+
+源码在yayi文件夹目录下
